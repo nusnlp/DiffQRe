@@ -1,0 +1,35 @@
+1. environment
+
+conda activate qre
+
+conda create --name qre  python=3.7
+pip install pytorch_lightning==0.8.0 or pip install pytorch_lightning==1.0.4
+pip install transformers==3.3.1
+
+
+
+2. to obtain adapter S on bart:
+
+sh finetune_shared.sh
+
+3. to train private models:
+
+sh finetune_shared.hard_0.sh
+
+sh finetune_shared.hard_1.sh
+
+sh finetune_shared.hard_2.sh
+
+
+4. SLAF:
+
+sh finetune.load_adapter.domain_weight_soft.sh
+
+5. SLAD:
+
+sh finetune.load_adapter.distill.sh
+
+
+6. evaluation:
+
+sh eval_bleu.sh
