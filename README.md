@@ -32,6 +32,11 @@
 ##### sh ./bin/eval_bleu.sh
 
 
+## 7. Data Downloading
+##### Cannard:  [https://sites.google.com/view/qanta/projects/canard](https://sites.google.com/view/qanta/projects/canard)
+##### QReCC: [https://github.com/apple/ml-qrecc](https://github.com/apple/ml-qrecc)
+
+
 
 
 
