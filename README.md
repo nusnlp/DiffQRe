@@ -597,3 +597,4 @@ The feature is still experimental, because:
 + we can make it much more robust if we have memory mapped/preprocessed datasets.
 + The speedup over sortish sampler is not that large at the moment.
 
+# DiffQRe
